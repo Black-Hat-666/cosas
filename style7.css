@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(57, 56, 56)
+}
+
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.container2 img{
+    height: 150px;
+    margin: 3px auto;
+
+}
+
+
+header{
+    padding: 30px;
+    background-color: salmon;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#TextHeader{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#TextSection{
+    margin-top: 2px;
+}
+
+
+#TítuloDía{
+  margin-bottom: 18px;
+}
+
+nav {
+    background-color: #33cdb6;
+    text-align: center;
+    align-items: center;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+ a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 18px;
+
+  }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+img{
+    width: 260px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    margin: 10px auto;
+}
+
+#img2{
+    width: 668px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    margin-top: 2px;
+}
+
+h1{
+    font-size: 40px;
+    margin: 10px;
+}
+
+h2{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 15px;
+    
+}
+
+aside{
+    width: 30%;
+    height: 75vh auto;
+    background-color: rgb(215, 213, 215); 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 25px; 
+    padding-top: 15px;
+    padding: 15px;
+
+}
+
+
+section{
+    width: 70%;
+    height: 75vh auto;
+    background-color: rgb(233, 236, 237);
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding-top: 15px;
+    padding: 15px;
+} 
+
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(168, 161, 161);
+}
